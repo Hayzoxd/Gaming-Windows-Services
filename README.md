@@ -29,15 +29,15 @@ Here are several examples of .bat files to launch your games and their necessary
 
 __FIFA22.exe__
 
-'@echo off
-sc config Wcmsvc start=demand
-sc config nsi start=demand
-sc start Wcmsvc
-sc start nsi
-"E:\Program Files\FIFA 22\FIFA22.exe"
-sc config Wcmsvc start=disabled
-sc config nsi start=disabled
-exit'
+> @echo off
+> sc config Wcmsvc start=demand
+> sc config nsi start=demand
+> sc start Wcmsvc
+> sc start nsi
+> "E:\Program Files\FIFA 22\FIFA22.exe"
+> sc config Wcmsvc start=disabled
+> sc config nsi start=disabled
+> exit'
 
 __ModernWarfare.exe__
 
