@@ -27,7 +27,7 @@ __Rocket League:__
 
 Here are several examples of .bat files to launch your games and their necessary drivers. Change the driver and the path to use with other games.
 
-# FIFA22.exe
+__FIFA22.exe__
 @echo off
 sc config Wcmsvc start=demand
 sc config nsi start=demand
@@ -38,7 +38,7 @@ sc config Wcmsvc start=disabled
 sc config nsi start=disabled
 exit
 
-# ModernWarfare.exe
+__ModernWarfare.exe__
 @echo off
 sc config nsi start=demand
 sc start nsi
@@ -46,7 +46,7 @@ sc start nsi
 sc config nsi start=disabled
 exit
 
-# FortniteClient-Win64-Shipping.exe
+__FortniteClient-Win64-Shipping.exe__
 @echo off
 sc config Null start=demand
 sc start Null
@@ -54,7 +54,7 @@ sc start Null
 sc config Null start=disabled
 exit
 
-# RocketLeague.exe
+__RocketLeague.exe__
 @echo off
 sc config Winmgmt start=demand
 sc config nsi start=demand
