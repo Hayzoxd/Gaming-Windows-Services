@@ -10,7 +10,7 @@ __FIFA 22:__
 __Fortnite:__
 * Null
 
-__Grand Theft Auto V: __
+__Grand Theft Auto V:__
 * mssmbios
 
 __Call of Duty: Modern Warfare:__
